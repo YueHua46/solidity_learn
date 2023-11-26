@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
 
 /**
   您可以通过创建 struct .

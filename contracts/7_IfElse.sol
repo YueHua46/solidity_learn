@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT 
+pragma solidity ^0.8.20;
 
 /**
  * solidity 支持if else if以及else语句，也包括三元运算符

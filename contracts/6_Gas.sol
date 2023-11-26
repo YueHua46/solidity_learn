@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT 
+pragma solidity ^0.8.20;
 
 /**
  * 单位：
@@ -6,8 +7,9 @@
  *  1 gwei = 10^-9 eth
  * 每一次transaction（交易）都会消耗一定的Gas，不论交易成功与否
  * 计算方式：
- *  Gas花费 = 消耗的Gas数量（Gas Used） x Gas的价格（base fee + priority fee）
+ *  Gas花费 = 消耗的Gas数量（Gas Used） x Gas的价格（base fee（基本费） + priority fee（小费））
  *  其中 base fee 是协议设置的值（每个区块都有一个base fee作为底价），priority fee 是用户设置的值，即给验证者（矿工）的小费。
+ *  小费越高，矿工越愿意打包你的交易，从而交易速度越快。
  */
 
 contract Gas {

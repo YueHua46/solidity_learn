@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
 
 /**
  * 错误将撤消在事务期间对状态所做的所有更改。

@@ -22,9 +22,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"forever\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"i\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"\\u5355\\u4f4d\\uff1a  1 wei = 10^-18 eth  1 gwei = 10^-9 eth \\u6bcf\\u4e00\\u6b21transaction\\uff08\\u4ea4\\u6613\\uff09\\u90fd\\u4f1a\\u6d88\\u8017\\u4e00\\u5b9a\\u7684Gas\\uff0c\\u4e0d\\u8bba\\u4ea4\\u6613\\u6210\\u529f\\u4e0e\\u5426 \\u8ba1\\u7b97\\u65b9\\u5f0f\\uff1a  Gas\\u82b1\\u8d39 = \\u6d88\\u8017\\u7684Gas\\u6570\\u91cf\\uff08Gas Used\\uff09 x Gas\\u7684\\u4ef7\\u683c\\uff08base fee + priority fee\\uff09  \\u5176\\u4e2d base fee \\u662f\\u534f\\u8bae\\u8bbe\\u7f6e\\u7684\\u503c\\uff08\\u6bcf\\u4e2a\\u533a\\u5757\\u90fd\\u6709\\u4e00\\u4e2abase fee\\u4f5c\\u4e3a\\u5e95\\u4ef7\\uff09\\uff0cpriority fee \\u662f\\u7528\\u6237\\u8bbe\\u7f6e\\u7684\\u503c\\uff0c\\u5373\\u7ed9\\u9a8c\\u8bc1\\u8005\\uff08\\u77ff\\u5de5\\uff09\\u7684\\u5c0f\\u8d39\\u3002\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/6_Gas.sol\":\"Gas\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/6_Gas.sol\":{\"keccak256\":\"0xc83ab0d39736442dff6e90cc823ad48596867b531be7431c286411231a7a8cce\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0b18c12666c84fe01d542f07ade95fe50900920bedd30b30d9f7c97f9cdfbdef\",\"dweb:/ipfs/QmQQo2o7FN2aDPtY2hfeHUcSDAhLu7Fr66cPpG1GEjdU9P\"]}},\"version\":1}",
-  "bytecode": "0x60806040525f8055348015610012575f80fd5b50610153806100205f395ff3fe608060405234801561000f575f80fd5b5060043610610034575f3560e01c80639ff9a60314610038578063e5aa3d5814610042575b5f80fd5b610040610060565b005b61004a610087565b60405161005791906100a4565b60405180910390f35b5b6001156100855760015f8082825461007991906100ea565b92505081905550610061565b565b5f5481565b5f819050919050565b61009e8161008c565b82525050565b5f6020820190506100b75f830184610095565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6100f48261008c565b91506100ff8361008c565b9250828201905080821115610117576101166100bd565b5b9291505056fea2646970667358221220646109fd534b55015f4f2adef828d8d04445703669129705c7cf3ba9ba485a5964736f6c63430008140033",
-  "deployedBytecode": "0x608060405234801561000f575f80fd5b5060043610610034575f3560e01c80639ff9a60314610038578063e5aa3d5814610042575b5f80fd5b610040610060565b005b61004a610087565b60405161005791906100a4565b60405180910390f35b5b6001156100855760015f8082825461007991906100ea565b92505081905550610061565b565b5f5481565b5f819050919050565b61009e8161008c565b82525050565b5f6020820190506100b75f830184610095565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6100f48261008c565b91506100ff8361008c565b9250828201905080821115610117576101166100bd565b5b9291505056fea2646970667358221220646109fd534b55015f4f2adef828d8d04445703669129705c7cf3ba9ba485a5964736f6c63430008140033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"forever\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"i\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"\\u5355\\u4f4d\\uff1a  1 wei = 10^-18 eth  1 gwei = 10^-9 eth \\u6bcf\\u4e00\\u6b21transaction\\uff08\\u4ea4\\u6613\\uff09\\u90fd\\u4f1a\\u6d88\\u8017\\u4e00\\u5b9a\\u7684Gas\\uff0c\\u4e0d\\u8bba\\u4ea4\\u6613\\u6210\\u529f\\u4e0e\\u5426 \\u8ba1\\u7b97\\u65b9\\u5f0f\\uff1a  Gas\\u82b1\\u8d39 = \\u6d88\\u8017\\u7684Gas\\u6570\\u91cf\\uff08Gas Used\\uff09 x Gas\\u7684\\u4ef7\\u683c\\uff08base fee\\uff08\\u57fa\\u672c\\u8d39\\uff09 + priority fee\\uff08\\u5c0f\\u8d39\\uff09\\uff09  \\u5176\\u4e2d base fee \\u662f\\u534f\\u8bae\\u8bbe\\u7f6e\\u7684\\u503c\\uff08\\u6bcf\\u4e2a\\u533a\\u5757\\u90fd\\u6709\\u4e00\\u4e2abase fee\\u4f5c\\u4e3a\\u5e95\\u4ef7\\uff09\\uff0cpriority fee \\u662f\\u7528\\u6237\\u8bbe\\u7f6e\\u7684\\u503c\\uff0c\\u5373\\u7ed9\\u9a8c\\u8bc1\\u8005\\uff08\\u77ff\\u5de5\\uff09\\u7684\\u5c0f\\u8d39\\u3002  \\u5c0f\\u8d39\\u8d8a\\u9ad8\\uff0c\\u77ff\\u5de5\\u8d8a\\u613f\\u610f\\u6253\\u5305\\u4f60\\u7684\\u4ea4\\u6613\\uff0c\\u4ece\\u800c\\u4ea4\\u6613\\u901f\\u5ea6\\u8d8a\\u5feb\\u3002\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/6_Gas.sol\":\"Gas\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/6_Gas.sol\":{\"keccak256\":\"0x4e55f5e77258340a9e7faf4e951538a6a097c4c655e31db74beda986fb7c796d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0e6bb05aee927b80ba0f558a5e32d26dec13023504a08bb9e865fb2dd6a4c954\",\"dweb:/ipfs/QmRsj8N29PU4QuduAX4qFbyqBUd9FtD5ob4WvDDdST1dyQ\"]}},\"version\":1}",
+  "bytecode": "0x60806040525f8055348015610012575f80fd5b50610153806100205f395ff3fe608060405234801561000f575f80fd5b5060043610610034575f3560e01c80639ff9a60314610038578063e5aa3d5814610042575b5f80fd5b610040610060565b005b61004a610087565b60405161005791906100a4565b60405180910390f35b5b6001156100855760015f8082825461007991906100ea565b92505081905550610061565b565b5f5481565b5f819050919050565b61009e8161008c565b82525050565b5f6020820190506100b75f830184610095565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6100f48261008c565b91506100ff8361008c565b9250828201905080821115610117576101166100bd565b5b9291505056fea26469706673582212202039f367cfdccf85c4a331cfea6a0283c76286ff2cf07f193567da09f9634c3b64736f6c63430008140033",
+  "deployedBytecode": "0x608060405234801561000f575f80fd5b5060043610610034575f3560e01c80639ff9a60314610038578063e5aa3d5814610042575b5f80fd5b610040610060565b005b61004a610087565b60405161005791906100a4565b60405180910390f35b5b6001156100855760015f8082825461007991906100ea565b92505081905550610061565b565b5f5481565b5f819050919050565b61009e8161008c565b82525050565b5f6020820190506100b75f830184610095565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6100f48261008c565b91506100ff8361008c565b9250828201905080821115610117576101166100bd565b5b9291505056fea26469706673582212202039f367cfdccf85c4a331cfea6a0283c76286ff2cf07f193567da09f9634c3b64736f6c63430008140033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
@@ -517,21 +517,32 @@
       "name": "#utility.yul"
     }
   ],
-  "sourceMap": "484:323:14:-:0;;;518:1;502:17;;484:323;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "484:323:14:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;654:146;;;:::i;:::-;;502:17;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;654:146;687:108;693:4;687:108;;;786:1;781;;:6;;;;;;;:::i;:::-;;;;;;;;687:108;;;654:146::o;502:17::-;;;;:::o;7:77:18:-;44:7;73:5;62:16;;7:77;;;:::o;90:118::-;177:24;195:5;177:24;:::i;:::-;172:3;165:37;90:118;;:::o;214:222::-;307:4;345:2;334:9;330:18;322:26;;358:71;426:1;415:9;411:17;402:6;358:71;:::i;:::-;214:222;;;;:::o;442:180::-;490:77;487:1;480:88;587:4;584:1;577:15;611:4;608:1;601:15;628:191;668:3;687:20;705:1;687:20;:::i;:::-;682:25;;721:20;739:1;721:20;:::i;:::-;716:25;;764:1;761;757:9;750:16;;785:3;782:1;779:10;776:36;;;792:18;;:::i;:::-;776:36;628:191;;;;:::o",
-  "source": "// SPDX-License-Identifier: MIT \r\n\r\n/**\r\n * 单位：\r\n *  1 wei = 10^-18 eth\r\n *  1 gwei = 10^-9 eth\r\n * 每一次transaction（交易）都会消耗一定的Gas，不论交易成功与否\r\n * 计算方式：\r\n *  Gas花费 = 消耗的Gas数量（Gas Used） x Gas的价格（base fee + priority fee）\r\n *  其中 base fee 是协议设置的值（每个区块都有一个base fee作为底价），priority fee 是用户设置的值，即给验证者（矿工）的小费。\r\n */\r\n\r\ncontract Gas {\r\n  uint public i = 0;\r\n\r\n  //用完您发送的所有 Gas 会导致交易失败。\r\n  //状态更改被撤消。\r\n  //消耗的 Gas 不予退还。\r\n  \r\n  function forever() public {\r\n    while(true) {\r\n      // 对状态的一次操作等同于一次transaction（交易）\r\n      i += 1;\r\n    }\r\n  }\r\n  \r\n}",
+  "sourceMap": "621:323:14:-:0;;;655:1;639:17;;621:323;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "621:323:14:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;791:146;;;:::i;:::-;;639:17;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;791:146;824:108;830:4;824:108;;;923:1;918;;:6;;;;;;;:::i;:::-;;;;;;;;824:108;;;791:146::o;639:17::-;;;;:::o;7:77:18:-;44:7;73:5;62:16;;7:77;;;:::o;90:118::-;177:24;195:5;177:24;:::i;:::-;172:3;165:37;90:118;;:::o;214:222::-;307:4;345:2;334:9;330:18;322:26;;358:71;426:1;415:9;411:17;402:6;358:71;:::i;:::-;214:222;;;;:::o;442:180::-;490:77;487:1;480:88;587:4;584:1;577:15;611:4;608:1;601:15;628:191;668:3;687:20;705:1;687:20;:::i;:::-;682:25;;721:20;739:1;721:20;:::i;:::-;716:25;;764:1;761;757:9;750:16;;785:3;782:1;779:10;776:36;;;792:18;;:::i;:::-;776:36;628:191;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT \r\npragma solidity ^0.8.20;\r\n\r\n/**\r\n * 单位：\r\n *  1 wei = 10^-18 eth\r\n *  1 gwei = 10^-9 eth\r\n * 每一次transaction（交易）都会消耗一定的Gas，不论交易成功与否\r\n * 计算方式：\r\n *  Gas花费 = 消耗的Gas数量（Gas Used） x Gas的价格（base fee（基本费） + priority fee（小费））\r\n *  其中 base fee 是协议设置的值（每个区块都有一个base fee作为底价），priority fee 是用户设置的值，即给验证者（矿工）的小费。\r\n *  小费越高，矿工越愿意打包你的交易，从而交易速度越快。\r\n */\r\n\r\ncontract Gas {\r\n  uint public i = 0;\r\n\r\n  //用完您发送的所有 Gas 会导致交易失败。\r\n  //状态更改被撤消。\r\n  //消耗的 Gas 不予退还。\r\n  \r\n  function forever() public {\r\n    while(true) {\r\n      // 对状态的一次操作等同于一次transaction（交易）\r\n      i += 1;\r\n    }\r\n  }\r\n  \r\n}",
   "sourcePath": "C:\\Users\\Sears\\Desktop\\blockchain_learn\\truffle-example\\contracts\\6_Gas.sol",
   "ast": {
     "absolutePath": "project:/contracts/6_Gas.sol",
     "exportedSymbols": {
       "Gas": [
-        885
+        900
       ]
     },
-    "id": 886,
+    "id": 901,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
+      {
+        "id": 884,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".20"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "34:24:14"
+      },
       {
         "abstract": false,
         "baseContracts": [],
@@ -539,30 +550,30 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "documentation": {
-          "id": 870,
+          "id": 885,
           "nodeType": "StructuredDocumentation",
-          "src": "36:444:14",
-          "text": " 单位：\n  1 wei = 10^-18 eth\n  1 gwei = 10^-9 eth\n 每一次transaction（交易）都会消耗一定的Gas，不论交易成功与否\n 计算方式：\n  Gas花费 = 消耗的Gas数量（Gas Used） x Gas的价格（base fee + priority fee）\n  其中 base fee 是协议设置的值（每个区块都有一个base fee作为底价），priority fee 是用户设置的值，即给验证者（矿工）的小费。"
+          "src": "62:555:14",
+          "text": " 单位：\n  1 wei = 10^-18 eth\n  1 gwei = 10^-9 eth\n 每一次transaction（交易）都会消耗一定的Gas，不论交易成功与否\n 计算方式：\n  Gas花费 = 消耗的Gas数量（Gas Used） x Gas的价格（base fee（基本费） + priority fee（小费））\n  其中 base fee 是协议设置的值（每个区块都有一个base fee作为底价），priority fee 是用户设置的值，即给验证者（矿工）的小费。\n  小费越高，矿工越愿意打包你的交易，从而交易速度越快。"
         },
         "fullyImplemented": true,
-        "id": 885,
+        "id": 900,
         "linearizedBaseContracts": [
-          885
+          900
         ],
         "name": "Gas",
-        "nameLocation": "493:3:14",
+        "nameLocation": "630:3:14",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
             "functionSelector": "e5aa3d58",
-            "id": 873,
+            "id": 888,
             "mutability": "mutable",
             "name": "i",
-            "nameLocation": "514:1:14",
+            "nameLocation": "651:1:14",
             "nodeType": "VariableDeclaration",
-            "scope": 885,
-            "src": "502:17:14",
+            "scope": 900,
+            "src": "639:17:14",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -570,10 +581,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 871,
+              "id": 886,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "502:4:14",
+              "src": "639:4:14",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -581,14 +592,14 @@
             },
             "value": {
               "hexValue": "30",
-              "id": 872,
+              "id": 887,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "518:1:14",
+              "src": "655:1:14",
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_0_by_1",
                 "typeString": "int_const 0"
@@ -599,30 +610,30 @@
           },
           {
             "body": {
-              "id": 883,
+              "id": 898,
               "nodeType": "Block",
-              "src": "680:120:14",
+              "src": "817:120:14",
               "statements": [
                 {
                   "body": {
-                    "id": 881,
+                    "id": 896,
                     "nodeType": "Block",
-                    "src": "699:96:14",
+                    "src": "836:96:14",
                     "statements": [
                       {
                         "expression": {
-                          "id": 879,
+                          "id": 894,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftHandSide": {
-                            "id": 877,
+                            "id": 892,
                             "name": "i",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 873,
-                            "src": "781:1:14",
+                            "referencedDeclaration": 888,
+                            "src": "918:1:14",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -632,88 +643,88 @@
                           "operator": "+=",
                           "rightHandSide": {
                             "hexValue": "31",
-                            "id": 878,
+                            "id": 893,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
                             "kind": "number",
                             "lValueRequested": false,
                             "nodeType": "Literal",
-                            "src": "786:1:14",
+                            "src": "923:1:14",
                             "typeDescriptions": {
                               "typeIdentifier": "t_rational_1_by_1",
                               "typeString": "int_const 1"
                             },
                             "value": "1"
                           },
-                          "src": "781:6:14",
+                          "src": "918:6:14",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 880,
+                        "id": 895,
                         "nodeType": "ExpressionStatement",
-                        "src": "781:6:14"
+                        "src": "918:6:14"
                       }
                     ]
                   },
                   "condition": {
                     "hexValue": "74727565",
-                    "id": 876,
+                    "id": 891,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
                     "kind": "bool",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "693:4:14",
+                    "src": "830:4:14",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     },
                     "value": "true"
                   },
-                  "id": 882,
+                  "id": 897,
                   "nodeType": "WhileStatement",
-                  "src": "687:108:14"
+                  "src": "824:108:14"
                 }
               ]
             },
             "functionSelector": "9ff9a603",
-            "id": 884,
+            "id": 899,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "forever",
-            "nameLocation": "663:7:14",
+            "nameLocation": "800:7:14",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 874,
+              "id": 889,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "670:2:14"
+              "src": "807:2:14"
             },
             "returnParameters": {
-              "id": 875,
+              "id": 890,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "680:0:14"
+              "src": "817:0:14"
             },
-            "scope": 885,
-            "src": "654:146:14",
+            "scope": 900,
+            "src": "791:146:14",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 886,
-        "src": "484:323:14",
+        "scope": 901,
+        "src": "621:323:14",
         "usedErrors": [],
         "usedEvents": []
       }
     ],
-    "src": "484:323:14"
+    "src": "34:910:14"
   },
   "compiler": {
     "name": "solc",
@@ -721,7 +732,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.15",
-  "updatedAt": "2023-11-25T14:50:35.797Z",
+  "updatedAt": "2023-11-26T08:09:23.393Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
@@ -730,7 +741,7 @@
   "userdoc": {
     "kind": "user",
     "methods": {},
-    "notice": "单位：  1 wei = 10^-18 eth  1 gwei = 10^-9 eth 每一次transaction（交易）都会消耗一定的Gas，不论交易成功与否 计算方式：  Gas花费 = 消耗的Gas数量（Gas Used） x Gas的价格（base fee + priority fee）  其中 base fee 是协议设置的值（每个区块都有一个base fee作为底价），priority fee 是用户设置的值，即给验证者（矿工）的小费。",
+    "notice": "单位：  1 wei = 10^-18 eth  1 gwei = 10^-9 eth 每一次transaction（交易）都会消耗一定的Gas，不论交易成功与否 计算方式：  Gas花费 = 消耗的Gas数量（Gas Used） x Gas的价格（base fee（基本费） + priority fee（小费））  其中 base fee 是协议设置的值（每个区块都有一个base fee作为底价），priority fee 是用户设置的值，即给验证者（矿工）的小费。  小费越高，矿工越愿意打包你的交易，从而交易速度越快。",
     "version": 1
   }
 }

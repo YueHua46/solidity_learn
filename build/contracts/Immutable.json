@@ -39,17 +39,17 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_MY_ADDR\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"BLOCK_TS\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"MY_ADDR\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"\\u4f7f\\u7528immutable\\u5173\\u952e\\u5b57\\u58f0\\u660e\\u4e0d\\u53ef\\u53d8\\u53d8\\u91cf \\u548cconstant\\u5173\\u952e\\u5b57\\u4e0d\\u540c\\uff0cimmutable\\u53d8\\u91cf\\u53ef\\u4ee5\\u5728\\u6784\\u9020\\u51fd\\u6570\\u4e2d\\u521d\\u59cb\\u5316 \\u76ee\\u524dstring\\u5e76\\u4e0d\\u652f\\u6301immutable\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/4_Immutable.sol\":\"Immutable\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/4_Immutable.sol\":{\"keccak256\":\"0x224ea6037b4c16695decef590b62b06a49556773334045b4a760a65757461e67\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://acd31206f00a02f6180e7e7a346e48e0b4b9309d1848fc929d3e5f41d0b01511\",\"dweb:/ipfs/Qmf8aiNcUnK5eiLewH2nczm7v74rBcxWg7xLdBBwp25niU\"]}},\"version\":1}",
-  "bytecode": "0x60c06040524260a090815250348015610016575f80fd5b50604051610295380380610295833981810160405281019061003891906100d0565b8073ffffffffffffffffffffffffffffffffffffffff1660808173ffffffffffffffffffffffffffffffffffffffff1681525050506100fb565b5f80fd5b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f61009f82610076565b9050919050565b6100af81610095565b81146100b9575f80fd5b50565b5f815190506100ca816100a6565b92915050565b5f602082840312156100e5576100e4610072565b5b5f6100f2848285016100bc565b91505092915050565b60805160a05161017b61011a5f395f609a01525f6076015261017b5ff3fe608060405234801561000f575f80fd5b5060043610610034575f3560e01c80632db78e591461003857806373b77a2a14610056575b5f80fd5b610040610074565b60405161004d91906100fb565b60405180910390f35b61005e610098565b60405161006b919061012c565b60405180910390f35b7f000000000000000000000000000000000000000000000000000000000000000081565b7f000000000000000000000000000000000000000000000000000000000000000081565b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6100e5826100bc565b9050919050565b6100f5816100db565b82525050565b5f60208201905061010e5f8301846100ec565b92915050565b5f819050919050565b61012681610114565b82525050565b5f60208201905061013f5f83018461011d565b9291505056fea26469706673582212205570dd6683e27c1bb49bdc34cea17c5c5d726e6dfc41588f2537f69bca844caa64736f6c63430008140033",
-  "deployedBytecode": "0x608060405234801561000f575f80fd5b5060043610610034575f3560e01c80632db78e591461003857806373b77a2a14610056575b5f80fd5b610040610074565b60405161004d91906100fb565b60405180910390f35b61005e610098565b60405161006b919061012c565b60405180910390f35b7f000000000000000000000000000000000000000000000000000000000000000081565b7f000000000000000000000000000000000000000000000000000000000000000081565b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6100e5826100bc565b9050919050565b6100f5816100db565b82525050565b5f60208201905061010e5f8301846100ec565b92915050565b5f819050919050565b61012681610114565b82525050565b5f60208201905061013f5f83018461011d565b9291505056fea26469706673582212205570dd6683e27c1bb49bdc34cea17c5c5d726e6dfc41588f2537f69bca844caa64736f6c63430008140033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_MY_ADDR\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"BLOCK_TS\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"MY_ADDR\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"\\u4f7f\\u7528immutable\\u5173\\u952e\\u5b57\\u58f0\\u660e\\u4e0d\\u53ef\\u53d8\\u53d8\\u91cf \\u548cconstant\\u5173\\u952e\\u5b57\\u4e0d\\u540c\\uff0cimmutable\\u53d8\\u91cf\\u53ef\\u4ee5\\u5728\\u6784\\u9020\\u51fd\\u6570\\u4e2d\\u521d\\u59cb\\u5316 \\u76ee\\u524dstring\\u5e76\\u4e0d\\u652f\\u6301immutable\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/4_Immutable.sol\":\"Immutable\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/4_Immutable.sol\":{\"keccak256\":\"0x16d6a9767926ee9eb6298e993377d45ccb9aaa49689cd88f8c9f8d353b2c03c8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://405f5902fa817050f321218c41b6587ec009cb7b989c9908ce4ccb09d6fb00be\",\"dweb:/ipfs/QmSSfDjQYLrsZEv4Vi51jb65eqannUFYokt9XVo5Tnz4pi\"]}},\"version\":1}",
+  "bytecode": "0x60c06040524260a090815250348015610016575f80fd5b50604051610295380380610295833981810160405281019061003891906100d0565b8073ffffffffffffffffffffffffffffffffffffffff1660808173ffffffffffffffffffffffffffffffffffffffff1681525050506100fb565b5f80fd5b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f61009f82610076565b9050919050565b6100af81610095565b81146100b9575f80fd5b50565b5f815190506100ca816100a6565b92915050565b5f602082840312156100e5576100e4610072565b5b5f6100f2848285016100bc565b91505092915050565b60805160a05161017b61011a5f395f609a01525f6076015261017b5ff3fe608060405234801561000f575f80fd5b5060043610610034575f3560e01c80632db78e591461003857806373b77a2a14610056575b5f80fd5b610040610074565b60405161004d91906100fb565b60405180910390f35b61005e610098565b60405161006b919061012c565b60405180910390f35b7f000000000000000000000000000000000000000000000000000000000000000081565b7f000000000000000000000000000000000000000000000000000000000000000081565b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6100e5826100bc565b9050919050565b6100f5816100db565b82525050565b5f60208201905061010e5f8301846100ec565b92915050565b5f819050919050565b61012681610114565b82525050565b5f60208201905061013f5f83018461011d565b9291505056fea26469706673582212206f6334c4e3a899e5ebf55243a96850946976b65de3eb46d798697bf67a31a1fb64736f6c63430008140033",
+  "deployedBytecode": "0x608060405234801561000f575f80fd5b5060043610610034575f3560e01c80632db78e591461003857806373b77a2a14610056575b5f80fd5b610040610074565b60405161004d91906100fb565b60405180910390f35b61005e610098565b60405161006b919061012c565b60405180910390f35b7f000000000000000000000000000000000000000000000000000000000000000081565b7f000000000000000000000000000000000000000000000000000000000000000081565b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6100e5826100bc565b9050919050565b6100f5816100db565b82525050565b5f60208201905061010e5f8301846100ec565b92915050565b5f819050919050565b61012681610114565b82525050565b5f60208201905061013f5f83018461011d565b9291505056fea26469706673582212206f6334c4e3a899e5ebf55243a96850946976b65de3eb46d798697bf67a31a1fb64736f6c63430008140033",
   "immutableReferences": {
-    "835": [
+    "848": [
       {
         "length": 32,
         "start": 118
       }
     ],
-    "839": [
+    "852": [
       {
         "length": 32,
         "start": 154
@@ -1177,21 +1177,32 @@
       "name": "#utility.yul"
     }
   ],
-  "sourceMap": "218:287:12:-:0;;;419:15;386:48;;;;;441:61;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;488:8;478:18;;;;;;;;;;441:61;218:287;;88:117:18;197:1;194;187:12;334:126;371:7;411:42;404:5;400:54;389:65;;334:126;;;:::o;466:96::-;503:7;532:24;550:5;532:24;:::i;:::-;521:35;;466:96;;;:::o;568:122::-;641:24;659:5;641:24;:::i;:::-;634:5;631:35;621:63;;680:1;677;670:12;621:63;568:122;:::o;696:143::-;753:5;784:6;778:13;769:22;;800:33;827:5;800:33;:::i;:::-;696:143;;;;:::o;845:351::-;915:6;964:2;952:9;943:7;939:23;935:32;932:119;;;970:79;;:::i;:::-;932:119;1090:1;1115:64;1171:7;1162:6;1151:9;1147:22;1115:64;:::i;:::-;1105:74;;1061:128;845:351;;;;:::o;218:287:12:-;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "218:287:12:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;312:32;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;386:48;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;312:32;;;:::o;386:48::-;;;:::o;7:126:18:-;44:7;84:42;77:5;73:54;62:65;;7:126;;;:::o;139:96::-;176:7;205:24;223:5;205:24;:::i;:::-;194:35;;139:96;;;:::o;241:118::-;328:24;346:5;328:24;:::i;:::-;323:3;316:37;241:118;;:::o;365:222::-;458:4;496:2;485:9;481:18;473:26;;509:71;577:1;566:9;562:17;553:6;509:71;:::i;:::-;365:222;;;;:::o;593:77::-;630:7;659:5;648:16;;593:77;;;:::o;676:118::-;763:24;781:5;763:24;:::i;:::-;758:3;751:37;676:118;;:::o;800:222::-;893:4;931:2;920:9;916:18;908:26;;944:71;1012:1;1001:9;997:17;988:6;944:71;:::i;:::-;800:222;;;;:::o",
-  "source": "// SPDX-License-Identifier: MIT \r\n\r\n/**\r\n * 使用immutable关键字声明不可变变量\r\n * 和constant关键字不同，immutable变量可以在构造函数中初始化\r\n * 目前string并不支持immutable\r\n */\r\n\r\ncontract Immutable {\r\n  // 未初始化的不可变变量，可通过构造函数初始化\r\n  address public immutable MY_ADDR;\r\n  // 初始化后的不可变变量\r\n  uint public immutable BLOCK_TS = block.timestamp;\r\n\r\n  constructor(address _MY_ADDR) {\r\n    MY_ADDR = _MY_ADDR;\r\n  }\r\n}",
+  "sourceMap": "244:287:12:-:0;;;445:15;412:48;;;;;467:61;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;514:8;504:18;;;;;;;;;;467:61;244:287;;88:117:18;197:1;194;187:12;334:126;371:7;411:42;404:5;400:54;389:65;;334:126;;;:::o;466:96::-;503:7;532:24;550:5;532:24;:::i;:::-;521:35;;466:96;;;:::o;568:122::-;641:24;659:5;641:24;:::i;:::-;634:5;631:35;621:63;;680:1;677;670:12;621:63;568:122;:::o;696:143::-;753:5;784:6;778:13;769:22;;800:33;827:5;800:33;:::i;:::-;696:143;;;;:::o;845:351::-;915:6;964:2;952:9;943:7;939:23;935:32;932:119;;;970:79;;:::i;:::-;932:119;1090:1;1115:64;1171:7;1162:6;1151:9;1147:22;1115:64;:::i;:::-;1105:74;;1061:128;845:351;;;;:::o;244:287:12:-;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "244:287:12:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;338:32;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;412:48;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;338:32;;;:::o;412:48::-;;;:::o;7:126:18:-;44:7;84:42;77:5;73:54;62:65;;7:126;;;:::o;139:96::-;176:7;205:24;223:5;205:24;:::i;:::-;194:35;;139:96;;;:::o;241:118::-;328:24;346:5;328:24;:::i;:::-;323:3;316:37;241:118;;:::o;365:222::-;458:4;496:2;485:9;481:18;473:26;;509:71;577:1;566:9;562:17;553:6;509:71;:::i;:::-;365:222;;;;:::o;593:77::-;630:7;659:5;648:16;;593:77;;;:::o;676:118::-;763:24;781:5;763:24;:::i;:::-;758:3;751:37;676:118;;:::o;800:222::-;893:4;931:2;920:9;916:18;908:26;;944:71;1012:1;1001:9;997:17;988:6;944:71;:::i;:::-;800:222;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT \r\npragma solidity ^0.8.20;\r\n\r\n/**\r\n * 使用immutable关键字声明不可变变量\r\n * 和constant关键字不同，immutable变量可以在构造函数中初始化\r\n * 目前string并不支持immutable\r\n */\r\n\r\ncontract Immutable {\r\n  // 未初始化的不可变变量，可通过构造函数初始化\r\n  address public immutable MY_ADDR;\r\n  // 初始化后的不可变变量\r\n  uint public immutable BLOCK_TS = block.timestamp;\r\n\r\n  constructor(address _MY_ADDR) {\r\n    MY_ADDR = _MY_ADDR;\r\n  }\r\n}",
   "sourcePath": "C:\\Users\\Sears\\Desktop\\blockchain_learn\\truffle-example\\contracts\\4_Immutable.sol",
   "ast": {
     "absolutePath": "project:/contracts/4_Immutable.sol",
     "exportedSymbols": {
       "Immutable": [
-        850
+        863
       ]
     },
-    "id": 851,
+    "id": 864,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
+      {
+        "id": 845,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".20"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "34:24:12"
+      },
       {
         "abstract": false,
         "baseContracts": [],
@@ -1199,30 +1210,30 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "documentation": {
-          "id": 833,
+          "id": 846,
           "nodeType": "StructuredDocumentation",
-          "src": "36:178:12",
+          "src": "62:178:12",
           "text": " 使用immutable关键字声明不可变变量\n 和constant关键字不同，immutable变量可以在构造函数中初始化\n 目前string并不支持immutable"
         },
         "fullyImplemented": true,
-        "id": 850,
+        "id": 863,
         "linearizedBaseContracts": [
-          850
+          863
         ],
         "name": "Immutable",
-        "nameLocation": "227:9:12",
+        "nameLocation": "253:9:12",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
             "functionSelector": "2db78e59",
-            "id": 835,
+            "id": 848,
             "mutability": "immutable",
             "name": "MY_ADDR",
-            "nameLocation": "337:7:12",
+            "nameLocation": "363:7:12",
             "nodeType": "VariableDeclaration",
-            "scope": 850,
-            "src": "312:32:12",
+            "scope": 863,
+            "src": "338:32:12",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1230,10 +1241,10 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 834,
+              "id": 847,
               "name": "address",
               "nodeType": "ElementaryTypeName",
-              "src": "312:7:12",
+              "src": "338:7:12",
               "stateMutability": "nonpayable",
               "typeDescriptions": {
                 "typeIdentifier": "t_address",
@@ -1245,13 +1256,13 @@
           {
             "constant": false,
             "functionSelector": "73b77a2a",
-            "id": 839,
+            "id": 852,
             "mutability": "immutable",
             "name": "BLOCK_TS",
-            "nameLocation": "408:8:12",
+            "nameLocation": "434:8:12",
             "nodeType": "VariableDeclaration",
-            "scope": 850,
-            "src": "386:48:12",
+            "scope": 863,
+            "src": "412:48:12",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1259,10 +1270,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 836,
+              "id": 849,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "386:4:12",
+              "src": "412:4:12",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -1270,26 +1281,26 @@
             },
             "value": {
               "expression": {
-                "id": 837,
+                "id": 850,
                 "name": "block",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
                 "referencedDeclaration": 4294967292,
-                "src": "419:5:12",
+                "src": "445:5:12",
                 "typeDescriptions": {
                   "typeIdentifier": "t_magic_block",
                   "typeString": "block"
                 }
               },
-              "id": 838,
+              "id": 851,
               "isConstant": false,
               "isLValue": false,
               "isPure": false,
               "lValueRequested": false,
-              "memberLocation": "425:9:12",
+              "memberLocation": "451:9:12",
               "memberName": "timestamp",
               "nodeType": "MemberAccess",
-              "src": "419:15:12",
+              "src": "445:15:12",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -1299,24 +1310,24 @@
           },
           {
             "body": {
-              "id": 848,
+              "id": 861,
               "nodeType": "Block",
-              "src": "471:31:12",
+              "src": "497:31:12",
               "statements": [
                 {
                   "expression": {
-                    "id": 846,
+                    "id": 859,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 844,
+                      "id": 857,
                       "name": "MY_ADDR",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 835,
-                      "src": "478:7:12",
+                      "referencedDeclaration": 848,
+                      "src": "504:7:12",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -1325,30 +1336,30 @@
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 845,
+                      "id": 858,
                       "name": "_MY_ADDR",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 841,
-                      "src": "488:8:12",
+                      "referencedDeclaration": 854,
+                      "src": "514:8:12",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "src": "478:18:12",
+                    "src": "504:18:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "id": 847,
+                  "id": 860,
                   "nodeType": "ExpressionStatement",
-                  "src": "478:18:12"
+                  "src": "504:18:12"
                 }
               ]
             },
-            "id": 849,
+            "id": 862,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -1356,18 +1367,18 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 842,
+              "id": 855,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 841,
+                  "id": 854,
                   "mutability": "mutable",
                   "name": "_MY_ADDR",
-                  "nameLocation": "461:8:12",
+                  "nameLocation": "487:8:12",
                   "nodeType": "VariableDeclaration",
-                  "scope": 849,
-                  "src": "453:16:12",
+                  "scope": 862,
+                  "src": "479:16:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1375,10 +1386,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 840,
+                    "id": 853,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "453:7:12",
+                    "src": "479:7:12",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1388,28 +1399,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "452:18:12"
+              "src": "478:18:12"
             },
             "returnParameters": {
-              "id": 843,
+              "id": 856,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "471:0:12"
+              "src": "497:0:12"
             },
-            "scope": 850,
-            "src": "441:61:12",
+            "scope": 863,
+            "src": "467:61:12",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 851,
-        "src": "218:287:12",
+        "scope": 864,
+        "src": "244:287:12",
         "usedErrors": [],
         "usedEvents": []
       }
     ],
-    "src": "218:287:12"
+    "src": "34:497:12"
   },
   "compiler": {
     "name": "solc",
@@ -1417,7 +1428,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.15",
-  "updatedAt": "2023-11-25T14:50:35.796Z",
+  "updatedAt": "2023-11-26T08:09:23.391Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

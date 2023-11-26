@@ -34,9 +34,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[],\"name\":\"AutherLog\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"message\",\"type\":\"string\"}],\"name\":\"Log\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"test\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Events \\u5141\\u8bb8\\u767b\\u5f55\\u5230\\u4ee5\\u592a\\u574a\\u533a\\u5757\\u94fe\\u3002\\u4e8b\\u4ef6\\u7684\\u4e00\\u4e9b\\u7528\\u4f8b\\u5305\\u62ec \\u4fa6\\u542c\\u4e8b\\u4ef6\\u548c\\u66f4\\u65b0\\u7528\\u6237\\u754c\\u9762 \\u4e8b\\u4ef6\\uff08Event\\uff09\\u662f\\u4e00\\u79cd\\u5728\\u667a\\u80fd\\u5408\\u7ea6\\u4e2d\\u8bb0\\u5f55\\u4fe1\\u606f\\u7684\\u65b9\\u5f0f\\u3002 \\u5f53\\u67d0\\u4e9b\\u72b6\\u6001\\u53d8\\u91cf\\u7684\\u503c\\u53d1\\u751f\\u6539\\u53d8\\u65f6\\uff0c\\u667a\\u80fd\\u5408\\u7ea6\\u53ef\\u4ee5\\u89e6\\u53d1\\u4e00\\u4e2a\\u4e8b\\u4ef6\\u5e76\\u5c06\\u65b0\\u7684\\u4fe1\\u606f\\u8bb0\\u5f55\\u5728\\u533a\\u5757\\u94fe\\u4e0a\\u3002 \\u8fd9\\u4e9b\\u4fe1\\u606f\\u53ef\\u4ee5\\u88ab\\u524d\\u7aef\\u5e94\\u7528\\u7a0b\\u5e8f\\u6355\\u83b7\\u548c\\u5904\\u7406\\uff0c\\u4ee5\\u4fbf\\u5728\\u7528\\u6237\\u754c\\u9762\\u4e0a\\u663e\\u793a\\u72b6\\u6001\\u7684\\u66f4\\u65b0\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/16_Event.sol\":\"Event\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/16_Event.sol\":{\"keccak256\":\"0x458b0648536aab85c0afd2bca85684bc021a085aa453a52dc54987d2e265624a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d80a4263e232e3c1279d61d046da872a4df2a16aa0baef1e132dd357083424e8\",\"dweb:/ipfs/QmVyWJn1u7E31SXiHgvrBhp2zhgLS8BTZpRREJQkRMfeMr\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561000f575f80fd5b506102138061001d5f395ff3fe608060405234801561000f575f80fd5b5060043610610029575f3560e01c8063f8a8fd6d1461002d575b5f80fd5b610035610037565b005b3373ffffffffffffffffffffffffffffffffffffffff167f0738f4da267a110d810e6e89fc59e46be6de0c37b1d5cd559b267dc3688e74e060405161007b90610157565b60405180910390a23373ffffffffffffffffffffffffffffffffffffffff167f0738f4da267a110d810e6e89fc59e46be6de0c37b1d5cd559b267dc3688e74e06040516100c7906101bf565b60405180910390a27f8ac6a2b989c064f9ea135355f62e5cdaedcb3459d8ed502dfb96dc2d0c27063e60405160405180910390a1565b5f82825260208201905092915050565b7f48656c6c6f20576f726c640000000000000000000000000000000000000000005f82015250565b5f610141600b836100fd565b915061014c8261010d565b602082019050919050565b5f6020820190508181035f83015261016e81610135565b9050919050565b7f48656c6c6f2045564d00000000000000000000000000000000000000000000005f82015250565b5f6101a96009836100fd565b91506101b482610175565b602082019050919050565b5f6020820190508181035f8301526101d68161019d565b905091905056fea2646970667358221220b16e98c491cb92a9b98bdf1dc82cdc42b1e94aa84a1f00b564d3f5571bc7f1c164736f6c63430008140033",
-  "deployedBytecode": "0x608060405234801561000f575f80fd5b5060043610610029575f3560e01c8063f8a8fd6d1461002d575b5f80fd5b610035610037565b005b3373ffffffffffffffffffffffffffffffffffffffff167f0738f4da267a110d810e6e89fc59e46be6de0c37b1d5cd559b267dc3688e74e060405161007b90610157565b60405180910390a23373ffffffffffffffffffffffffffffffffffffffff167f0738f4da267a110d810e6e89fc59e46be6de0c37b1d5cd559b267dc3688e74e06040516100c7906101bf565b60405180910390a27f8ac6a2b989c064f9ea135355f62e5cdaedcb3459d8ed502dfb96dc2d0c27063e60405160405180910390a1565b5f82825260208201905092915050565b7f48656c6c6f20576f726c640000000000000000000000000000000000000000005f82015250565b5f610141600b836100fd565b915061014c8261010d565b602082019050919050565b5f6020820190508181035f83015261016e81610135565b9050919050565b7f48656c6c6f2045564d00000000000000000000000000000000000000000000005f82015250565b5f6101a96009836100fd565b91506101b482610175565b602082019050919050565b5f6020820190508181035f8301526101d68161019d565b905091905056fea2646970667358221220b16e98c491cb92a9b98bdf1dc82cdc42b1e94aa84a1f00b564d3f5571bc7f1c164736f6c63430008140033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[],\"name\":\"AutherLog\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"message\",\"type\":\"string\"}],\"name\":\"Log\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"test\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Events \\u5141\\u8bb8\\u767b\\u5f55\\u5230\\u4ee5\\u592a\\u574a\\u533a\\u5757\\u94fe\\u3002\\u4e8b\\u4ef6\\u7684\\u4e00\\u4e9b\\u7528\\u4f8b\\u5305\\u62ec \\u4fa6\\u542c\\u4e8b\\u4ef6\\u548c\\u66f4\\u65b0\\u7528\\u6237\\u754c\\u9762 \\u4e8b\\u4ef6\\uff08Event\\uff09\\u662f\\u4e00\\u79cd\\u5728\\u667a\\u80fd\\u5408\\u7ea6\\u4e2d\\u8bb0\\u5f55\\u4fe1\\u606f\\u7684\\u65b9\\u5f0f\\u3002 \\u5f53\\u67d0\\u4e9b\\u72b6\\u6001\\u53d8\\u91cf\\u7684\\u503c\\u53d1\\u751f\\u6539\\u53d8\\u65f6\\uff0c\\u667a\\u80fd\\u5408\\u7ea6\\u53ef\\u4ee5\\u89e6\\u53d1\\u4e00\\u4e2a\\u4e8b\\u4ef6\\u5e76\\u5c06\\u65b0\\u7684\\u4fe1\\u606f\\u8bb0\\u5f55\\u5728\\u533a\\u5757\\u94fe\\u4e0a\\u3002 \\u8fd9\\u4e9b\\u4fe1\\u606f\\u53ef\\u4ee5\\u88ab\\u524d\\u7aef\\u5e94\\u7528\\u7a0b\\u5e8f\\u6355\\u83b7\\u548c\\u5904\\u7406\\uff0c\\u4ee5\\u4fbf\\u5728\\u7528\\u6237\\u754c\\u9762\\u4e0a\\u663e\\u793a\\u72b6\\u6001\\u7684\\u66f4\\u65b0\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/16_Event.sol\":\"Event\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/16_Event.sol\":{\"keccak256\":\"0xa6ab2c8def62f66d014fcc6b98b7f8336b988b07f322d15f35c07ee5f1269008\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4feed7abb6f29e19b8b435eec47c757dc00b1f35ad3cecf8d6037b39c8f3e307\",\"dweb:/ipfs/Qmb6VdbZaaJkYsHg1uFzJx4sZs4XVFSgyrayv3PyEmJmcP\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561000f575f80fd5b506102138061001d5f395ff3fe608060405234801561000f575f80fd5b5060043610610029575f3560e01c8063f8a8fd6d1461002d575b5f80fd5b610035610037565b005b3373ffffffffffffffffffffffffffffffffffffffff167f0738f4da267a110d810e6e89fc59e46be6de0c37b1d5cd559b267dc3688e74e060405161007b90610157565b60405180910390a23373ffffffffffffffffffffffffffffffffffffffff167f0738f4da267a110d810e6e89fc59e46be6de0c37b1d5cd559b267dc3688e74e06040516100c7906101bf565b60405180910390a27f8ac6a2b989c064f9ea135355f62e5cdaedcb3459d8ed502dfb96dc2d0c27063e60405160405180910390a1565b5f82825260208201905092915050565b7f48656c6c6f20576f726c640000000000000000000000000000000000000000005f82015250565b5f610141600b836100fd565b915061014c8261010d565b602082019050919050565b5f6020820190508181035f83015261016e81610135565b9050919050565b7f48656c6c6f2045564d00000000000000000000000000000000000000000000005f82015250565b5f6101a96009836100fd565b91506101b482610175565b602082019050919050565b5f6020820190508181035f8301526101d68161019d565b905091905056fea2646970667358221220eb30d96bada2a97b6a288ada0c8c9c276a4b919ab5e472908d8e63886e27f0e764736f6c63430008140033",
+  "deployedBytecode": "0x608060405234801561000f575f80fd5b5060043610610029575f3560e01c8063f8a8fd6d1461002d575b5f80fd5b610035610037565b005b3373ffffffffffffffffffffffffffffffffffffffff167f0738f4da267a110d810e6e89fc59e46be6de0c37b1d5cd559b267dc3688e74e060405161007b90610157565b60405180910390a23373ffffffffffffffffffffffffffffffffffffffff167f0738f4da267a110d810e6e89fc59e46be6de0c37b1d5cd559b267dc3688e74e06040516100c7906101bf565b60405180910390a27f8ac6a2b989c064f9ea135355f62e5cdaedcb3459d8ed502dfb96dc2d0c27063e60405160405180910390a1565b5f82825260208201905092915050565b7f48656c6c6f20576f726c640000000000000000000000000000000000000000005f82015250565b5f610141600b836100fd565b915061014c8261010d565b602082019050919050565b5f6020820190508181035f83015261016e81610135565b9050919050565b7f48656c6c6f2045564d00000000000000000000000000000000000000000000005f82015250565b5f6101a96009836100fd565b91506101b482610175565b602082019050919050565b5f6020820190508181035f8301526101d68161019d565b905091905056fea2646970667358221220eb30d96bada2a97b6a288ada0c8c9c276a4b919ab5e472908d8e63886e27f0e764736f6c63430008140033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
@@ -799,30 +799,41 @@
       "name": "#utility.yul"
     }
   ],
-  "sourceMap": "495:339:7:-:0;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "495:339:7:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;706:125;;;:::i;:::-;;;743:10;739:29;;;;;;;;:::i;:::-;;;;;;;;782:10;778:27;;;;;;;;:::i;:::-;;;;;;;;815:11;;;;;;;;;;706:125::o;7:169:18:-;91:11;125:6;120:3;113:19;165:4;160:3;156:14;141:29;;7:169;;;;:::o;182:161::-;322:13;318:1;310:6;306:14;299:37;182:161;:::o;349:366::-;491:3;512:67;576:2;571:3;512:67;:::i;:::-;505:74;;588:93;677:3;588:93;:::i;:::-;706:2;701:3;697:12;690:19;;349:366;;;:::o;721:419::-;887:4;925:2;914:9;910:18;902:26;;974:9;968:4;964:20;960:1;949:9;945:17;938:47;1002:131;1128:4;1002:131;:::i;:::-;994:139;;721:419;;;:::o;1146:159::-;1286:11;1282:1;1274:6;1270:14;1263:35;1146:159;:::o;1311:365::-;1453:3;1474:66;1538:1;1533:3;1474:66;:::i;:::-;1467:73;;1549:93;1638:3;1549:93;:::i;:::-;1667:2;1662:3;1658:12;1651:19;;1311:365;;;:::o;1682:419::-;1848:4;1886:2;1875:9;1871:18;1863:26;;1935:9;1929:4;1925:20;1921:1;1910:9;1906:17;1899:47;1963:131;2089:4;1963:131;:::i;:::-;1955:139;;1682:419;;;:::o",
-  "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity 0.8.20;\r\n\r\n/**\r\n * Events 允许登录到以太坊区块链。事件的一些用例包括\r\n * 侦听事件和更新用户界面\r\n * 事件（Event）是一种在智能合约中记录信息的方式。\r\n * 当某些状态变量的值发生改变时，智能合约可以触发一个事件并将新的信息记录在区块链上。\r\n * 这些信息可以被前端应用程序捕获和处理，以便在用户界面上显示状态的更新\r\n */\r\n\r\ncontract Event {\r\n  // 事件声明\r\n // 最多可以索引3个参数。\r\n // 索引参数可帮助您通过索引参数过滤日志\r\n event Log(address indexed sender,string message);\r\n event AutherLog();\r\n \r\n function test() public {\r\n  emit Log(msg.sender,\"Hello World\");\r\n  emit Log(msg.sender,\"Hello EVM\");\r\n  emit AutherLog();\r\n }\r\n}",
+  "sourceMap": "521:339:7:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "521:339:7:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;732:125;;;:::i;:::-;;;769:10;765:29;;;;;;;;:::i;:::-;;;;;;;;808:10;804:27;;;;;;;;:::i;:::-;;;;;;;;841:11;;;;;;;;;;732:125::o;7:169:18:-;91:11;125:6;120:3;113:19;165:4;160:3;156:14;141:29;;7:169;;;;:::o;182:161::-;322:13;318:1;310:6;306:14;299:37;182:161;:::o;349:366::-;491:3;512:67;576:2;571:3;512:67;:::i;:::-;505:74;;588:93;677:3;588:93;:::i;:::-;706:2;701:3;697:12;690:19;;349:366;;;:::o;721:419::-;887:4;925:2;914:9;910:18;902:26;;974:9;968:4;964:20;960:1;949:9;945:17;938:47;1002:131;1128:4;1002:131;:::i;:::-;994:139;;721:419;;;:::o;1146:159::-;1286:11;1282:1;1274:6;1270:14;1263:35;1146:159;:::o;1311:365::-;1453:3;1474:66;1538:1;1533:3;1474:66;:::i;:::-;1467:73;;1549:93;1638:3;1549:93;:::i;:::-;1667:2;1662:3;1658:12;1651:19;;1311:365;;;:::o;1682:419::-;1848:4;1886:2;1875:9;1871:18;1863:26;;1935:9;1929:4;1925:20;1921:1;1910:9;1906:17;1899:47;1963:131;2089:4;1963:131;:::i;:::-;1955:139;;1682:419;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\npragma solidity 0.8.20;\r\n\r\n/**\r\n * Events 允许登录到以太坊区块链。事件的一些用例包括\r\n * 侦听事件和更新用户界面\r\n * 事件（Event）是一种在智能合约中记录信息的方式。\r\n * 当某些状态变量的值发生改变时，智能合约可以触发一个事件并将新的信息记录在区块链上。\r\n * 这些信息可以被前端应用程序捕获和处理，以便在用户界面上显示状态的更新\r\n */\r\n\r\ncontract Event {\r\n  // 事件声明\r\n // 最多可以索引3个参数。\r\n // 索引参数可帮助您通过索引参数过滤日志\r\n event Log(address indexed sender,string message);\r\n event AutherLog();\r\n \r\n function test() public {\r\n  emit Log(msg.sender,\"Hello World\");\r\n  emit Log(msg.sender,\"Hello EVM\");\r\n  emit AutherLog();\r\n }\r\n}",
   "sourcePath": "C:\\Users\\Sears\\Desktop\\blockchain_learn\\truffle-example\\contracts\\16_Event.sol",
   "ast": {
     "absolutePath": "project:/contracts/16_Event.sol",
     "exportedSymbols": {
       "Event": [
-        608
+        616
       ]
     },
-    "id": 609,
+    "id": 617,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 579,
+        "id": 586,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".20"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:7"
+      },
+      {
+        "id": 587,
         "literals": [
           "solidity",
           "0.8",
           ".20"
         ],
         "nodeType": "PragmaDirective",
-        "src": "35:23:7"
+        "src": "61:23:7"
       },
       {
         "abstract": false,
@@ -831,41 +842,41 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "documentation": {
-          "id": 580,
+          "id": 588,
           "nodeType": "StructuredDocumentation",
-          "src": "62:429:7",
+          "src": "88:429:7",
           "text": " Events 允许登录到以太坊区块链。事件的一些用例包括\n 侦听事件和更新用户界面\n 事件（Event）是一种在智能合约中记录信息的方式。\n 当某些状态变量的值发生改变时，智能合约可以触发一个事件并将新的信息记录在区块链上。\n 这些信息可以被前端应用程序捕获和处理，以便在用户界面上显示状态的更新"
         },
         "fullyImplemented": true,
-        "id": 608,
+        "id": 616,
         "linearizedBaseContracts": [
-          608
+          616
         ],
         "name": "Event",
-        "nameLocation": "504:5:7",
+        "nameLocation": "530:5:7",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "anonymous": false,
             "eventSelector": "0738f4da267a110d810e6e89fc59e46be6de0c37b1d5cd559b267dc3688e74e0",
-            "id": 586,
+            "id": 594,
             "name": "Log",
-            "nameLocation": "636:3:7",
+            "nameLocation": "662:3:7",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 585,
+              "id": 593,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 582,
+                  "id": 590,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "sender",
-                  "nameLocation": "656:6:7",
+                  "nameLocation": "682:6:7",
                   "nodeType": "VariableDeclaration",
-                  "scope": 586,
-                  "src": "640:22:7",
+                  "scope": 594,
+                  "src": "666:22:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -873,10 +884,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 581,
+                    "id": 589,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "640:7:7",
+                    "src": "666:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -887,14 +898,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 584,
+                  "id": 592,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "message",
-                  "nameLocation": "670:7:7",
+                  "nameLocation": "696:7:7",
                   "nodeType": "VariableDeclaration",
-                  "scope": 586,
-                  "src": "663:14:7",
+                  "scope": 594,
+                  "src": "689:14:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -902,10 +913,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 583,
+                    "id": 591,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "663:6:7",
+                    "src": "689:6:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -914,56 +925,56 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "639:39:7"
+              "src": "665:39:7"
             },
-            "src": "630:49:7"
+            "src": "656:49:7"
           },
           {
             "anonymous": false,
             "eventSelector": "8ac6a2b989c064f9ea135355f62e5cdaedcb3459d8ed502dfb96dc2d0c27063e",
-            "id": 588,
+            "id": 596,
             "name": "AutherLog",
-            "nameLocation": "688:9:7",
+            "nameLocation": "714:9:7",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 587,
+              "id": 595,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "697:2:7"
+              "src": "723:2:7"
             },
-            "src": "682:18:7"
+            "src": "708:18:7"
           },
           {
             "body": {
-              "id": 606,
+              "id": 614,
               "nodeType": "Block",
-              "src": "729:102:7",
+              "src": "755:102:7",
               "statements": [
                 {
                   "eventCall": {
                     "arguments": [
                       {
                         "expression": {
-                          "id": 592,
+                          "id": 600,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 4294967281,
-                          "src": "743:3:7",
+                          "src": "769:3:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 593,
+                        "id": 601,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
-                        "memberLocation": "747:6:7",
+                        "memberLocation": "773:6:7",
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
-                        "src": "743:10:7",
+                        "src": "769:10:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -971,14 +982,14 @@
                       },
                       {
                         "hexValue": "48656c6c6f20576f726c64",
-                        "id": 594,
+                        "id": 602,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "754:13:7",
+                        "src": "780:13:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_592fa743889fc7f92ac2a37bb1f5ba1daf2a5c84741ca0e0061d243a2e6707ba",
                           "typeString": "literal_string \"Hello World\""
@@ -997,18 +1008,18 @@
                           "typeString": "literal_string \"Hello World\""
                         }
                       ],
-                      "id": 591,
+                      "id": 599,
                       "name": "Log",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 586,
-                      "src": "739:3:7",
+                      "referencedDeclaration": 594,
+                      "src": "765:3:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (address,string memory)"
                       }
                     },
-                    "id": 595,
+                    "id": 603,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1017,42 +1028,42 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "739:29:7",
+                    "src": "765:29:7",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 596,
+                  "id": 604,
                   "nodeType": "EmitStatement",
-                  "src": "734:34:7"
+                  "src": "760:34:7"
                 },
                 {
                   "eventCall": {
                     "arguments": [
                       {
                         "expression": {
-                          "id": 598,
+                          "id": 606,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 4294967281,
-                          "src": "782:3:7",
+                          "src": "808:3:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 599,
+                        "id": 607,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
-                        "memberLocation": "786:6:7",
+                        "memberLocation": "812:6:7",
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
-                        "src": "782:10:7",
+                        "src": "808:10:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1060,14 +1071,14 @@
                       },
                       {
                         "hexValue": "48656c6c6f2045564d",
-                        "id": 600,
+                        "id": 608,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "793:11:7",
+                        "src": "819:11:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_92c945122a4057c6b8995e5176c65c5afa46aa25aef2ae5bbd85c71ac00e6ae5",
                           "typeString": "literal_string \"Hello EVM\""
@@ -1086,18 +1097,18 @@
                           "typeString": "literal_string \"Hello EVM\""
                         }
                       ],
-                      "id": 597,
+                      "id": 605,
                       "name": "Log",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 586,
-                      "src": "778:3:7",
+                      "referencedDeclaration": 594,
+                      "src": "804:3:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (address,string memory)"
                       }
                     },
-                    "id": 601,
+                    "id": 609,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1106,34 +1117,34 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "778:27:7",
+                    "src": "804:27:7",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 602,
+                  "id": 610,
                   "nodeType": "EmitStatement",
-                  "src": "773:32:7"
+                  "src": "799:32:7"
                 },
                 {
                   "eventCall": {
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 603,
+                      "id": 611,
                       "name": "AutherLog",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 588,
-                      "src": "815:9:7",
+                      "referencedDeclaration": 596,
+                      "src": "841:9:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$__$returns$__$",
                         "typeString": "function ()"
                       }
                     },
-                    "id": 604,
+                    "id": 612,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1142,56 +1153,56 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "815:11:7",
+                    "src": "841:11:7",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 605,
+                  "id": 613,
                   "nodeType": "EmitStatement",
-                  "src": "810:16:7"
+                  "src": "836:16:7"
                 }
               ]
             },
             "functionSelector": "f8a8fd6d",
-            "id": 607,
+            "id": 615,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "test",
-            "nameLocation": "715:4:7",
+            "nameLocation": "741:4:7",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 589,
+              "id": 597,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "719:2:7"
+              "src": "745:2:7"
             },
             "returnParameters": {
-              "id": 590,
+              "id": 598,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "729:0:7"
+              "src": "755:0:7"
             },
-            "scope": 608,
-            "src": "706:125:7",
+            "scope": 616,
+            "src": "732:125:7",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 609,
-        "src": "495:339:7",
+        "scope": 617,
+        "src": "521:339:7",
         "usedErrors": [],
         "usedEvents": [
-          586,
-          588
+          594,
+          596
         ]
       }
     ],
-    "src": "35:799:7"
+    "src": "33:827:7"
   },
   "compiler": {
     "name": "solc",
@@ -1199,7 +1210,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.15",
-  "updatedAt": "2023-11-25T14:50:35.772Z",
+  "updatedAt": "2023-11-26T08:09:23.347Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

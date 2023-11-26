@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT 
+pragma solidity ^0.8.20;
 
 contract SimpleStorage2 {
     // mapping数据结构,保存键值对的关系

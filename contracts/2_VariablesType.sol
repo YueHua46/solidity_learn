@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT 
+pragma solidity ^0.8.20;
 
 /**
  * 三种类型的变量
@@ -17,7 +18,7 @@ contract VariablesType {
   
   function doSomething() public view {
     // 函数内部的local变量
-    uint i = 0;
+    string memory localText = "hello world";
 
     // 全局的global变量
     uint ts = block.timestamp;

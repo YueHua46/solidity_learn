@@ -28,9 +28,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"ADDR\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"NUM\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/3_Constant.sol\":\"Constant\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/3_Constant.sol\":{\"keccak256\":\"0x44e168429763b058d2b98227328e5c014434834945d645aa813a3e380dbd5a32\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://65014d14d01b393587fe2cf83f2f0cff0950839ef166b30e3a515726a482074f\",\"dweb:/ipfs/QmWk1woDqeciVDUAfjFfmDRWk5sXSwL8kXZN1smKeBdPrf\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561000f575f80fd5b506101508061001d5f395ff3fe608060405234801561000f575f80fd5b5060043610610034575f3560e01c8063897cb91e14610038578063b4eb5ede14610056575b5f80fd5b610040610074565b60405161004d91906100a9565b60405180910390f35b61005e610079565b60405161006b9190610101565b60405180910390f35b600181565b735b38da6a701c568545dcfcb03fcb875f56beddc481565b5f819050919050565b6100a381610091565b82525050565b5f6020820190506100bc5f83018461009a565b92915050565b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6100eb826100c2565b9050919050565b6100fb816100e1565b82525050565b5f6020820190506101145f8301846100f2565b9291505056fea2646970667358221220ead31718420f761928e3c2800dd869e47720597f2762689d44b2c6463e29b30864736f6c63430008140033",
-  "deployedBytecode": "0x608060405234801561000f575f80fd5b5060043610610034575f3560e01c8063897cb91e14610038578063b4eb5ede14610056575b5f80fd5b610040610074565b60405161004d91906100a9565b60405180910390f35b61005e610079565b60405161006b9190610101565b60405180910390f35b600181565b735b38da6a701c568545dcfcb03fcb875f56beddc481565b5f819050919050565b6100a381610091565b82525050565b5f6020820190506100bc5f83018461009a565b92915050565b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6100eb826100c2565b9050919050565b6100fb816100e1565b82525050565b5f6020820190506101145f8301846100f2565b9291505056fea2646970667358221220ead31718420f761928e3c2800dd869e47720597f2762689d44b2c6463e29b30864736f6c63430008140033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"ADDR\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"NUM\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/3_Constant.sol\":\"Constant\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/3_Constant.sol\":{\"keccak256\":\"0xc68c2e12d35874f2403102bd06e434191d24c638cb0c57d1a8659f002fd94008\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://de724d55f89d611e7a2e637ed89cea495d591c2401daa2f6744e8a9c800cb0fa\",\"dweb:/ipfs/QmNuPxUYRQ3u9LmKUsMgktxYe4dCurQcCcypzmca7g6DBr\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561000f575f80fd5b506101508061001d5f395ff3fe608060405234801561000f575f80fd5b5060043610610034575f3560e01c8063897cb91e14610038578063b4eb5ede14610056575b5f80fd5b610040610074565b60405161004d91906100a9565b60405180910390f35b61005e610079565b60405161006b9190610101565b60405180910390f35b600181565b735b38da6a701c568545dcfcb03fcb875f56beddc481565b5f819050919050565b6100a381610091565b82525050565b5f6020820190506100bc5f83018461009a565b92915050565b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6100eb826100c2565b9050919050565b6100fb816100e1565b82525050565b5f6020820190506101145f8301846100f2565b9291505056fea26469706673582212208e0c5c7df37546250d0842aa48bac3537fad59af75b6e9502c04179801bd3c1e64736f6c63430008140033",
+  "deployedBytecode": "0x608060405234801561000f575f80fd5b5060043610610034575f3560e01c8063897cb91e14610038578063b4eb5ede14610056575b5f80fd5b610040610074565b60405161004d91906100a9565b60405180910390f35b61005e610079565b60405161006b9190610101565b60405180910390f35b600181565b735b38da6a701c568545dcfcb03fcb875f56beddc481565b5f819050919050565b6100a381610091565b82525050565b5f6020820190506100bc5f83018461009a565b92915050565b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6100eb826100c2565b9050919050565b6100fb816100e1565b82525050565b5f6020820190506101145f8301846100f2565b9291505056fea26469706673582212208e0c5c7df37546250d0842aa48bac3537fad59af75b6e9502c04179801bd3c1e64736f6c63430008140033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
@@ -547,21 +547,32 @@
       "name": "#utility.yul"
     }
   ],
-  "sourceMap": "36:175:11:-:0;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "36:175:11:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;101:28;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;134:73;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;101:28;128:1;101:28;:::o;134:73::-;165:42;134:73;:::o;7:77:18:-;44:7;73:5;62:16;;7:77;;;:::o;90:118::-;177:24;195:5;177:24;:::i;:::-;172:3;165:37;90:118;;:::o;214:222::-;307:4;345:2;334:9;330:18;322:26;;358:71;426:1;415:9;411:17;402:6;358:71;:::i;:::-;214:222;;;;:::o;442:126::-;479:7;519:42;512:5;508:54;497:65;;442:126;;;:::o;574:96::-;611:7;640:24;658:5;640:24;:::i;:::-;629:35;;574:96;;;:::o;676:118::-;763:24;781:5;763:24;:::i;:::-;758:3;751:37;676:118;;:::o;800:222::-;893:4;931:2;920:9;916:18;908:26;;944:71;1012:1;1001:9;997:17;988:6;944:71;:::i;:::-;800:222;;;;:::o",
-  "source": "// SPDX-License-Identifier: MIT \r\n\r\ncontract Constant {\r\n  // 通过constant关键字声明常量\r\n  uint public constant NUM = 1;\r\n  address public constant ADDR = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;\r\n}",
+  "sourceMap": "62:175:11:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "62:175:11:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;127:28;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;160:73;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;127:28;154:1;127:28;:::o;160:73::-;191:42;160:73;:::o;7:77:18:-;44:7;73:5;62:16;;7:77;;;:::o;90:118::-;177:24;195:5;177:24;:::i;:::-;172:3;165:37;90:118;;:::o;214:222::-;307:4;345:2;334:9;330:18;322:26;;358:71;426:1;415:9;411:17;402:6;358:71;:::i;:::-;214:222;;;;:::o;442:126::-;479:7;519:42;512:5;508:54;497:65;;442:126;;;:::o;574:96::-;611:7;640:24;658:5;640:24;:::i;:::-;629:35;;574:96;;;:::o;676:118::-;763:24;781:5;763:24;:::i;:::-;758:3;751:37;676:118;;:::o;800:222::-;893:4;931:2;920:9;916:18;908:26;;944:71;1012:1;1001:9;997:17;988:6;944:71;:::i;:::-;800:222;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT \r\npragma solidity ^0.8.20;\r\n\r\ncontract Constant {\r\n  // 通过constant关键字声明常量\r\n  uint public constant NUM = 1;\r\n  address public constant ADDR = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;\r\n}",
   "sourcePath": "C:\\Users\\Sears\\Desktop\\blockchain_learn\\truffle-example\\contracts\\3_Constant.sol",
   "ast": {
     "absolutePath": "project:/contracts/3_Constant.sol",
     "exportedSymbols": {
       "Constant": [
-        831
+        843
       ]
     },
-    "id": 832,
+    "id": 844,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
+      {
+        "id": 836,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".20"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "34:24:11"
+      },
       {
         "abstract": false,
         "baseContracts": [],
@@ -569,24 +580,24 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 831,
+        "id": 843,
         "linearizedBaseContracts": [
-          831
+          843
         ],
         "name": "Constant",
-        "nameLocation": "45:8:11",
+        "nameLocation": "71:8:11",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": true,
             "functionSelector": "897cb91e",
-            "id": 827,
+            "id": 839,
             "mutability": "constant",
             "name": "NUM",
-            "nameLocation": "122:3:11",
+            "nameLocation": "148:3:11",
             "nodeType": "VariableDeclaration",
-            "scope": 831,
-            "src": "101:28:11",
+            "scope": 843,
+            "src": "127:28:11",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -594,10 +605,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 825,
+              "id": 837,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "101:4:11",
+              "src": "127:4:11",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -605,14 +616,14 @@
             },
             "value": {
               "hexValue": "31",
-              "id": 826,
+              "id": 838,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "128:1:11",
+              "src": "154:1:11",
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_1_by_1",
                 "typeString": "int_const 1"
@@ -624,13 +635,13 @@
           {
             "constant": true,
             "functionSelector": "b4eb5ede",
-            "id": 830,
+            "id": 842,
             "mutability": "constant",
             "name": "ADDR",
-            "nameLocation": "158:4:11",
+            "nameLocation": "184:4:11",
             "nodeType": "VariableDeclaration",
-            "scope": 831,
-            "src": "134:73:11",
+            "scope": 843,
+            "src": "160:73:11",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -638,10 +649,10 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 828,
+              "id": 840,
               "name": "address",
               "nodeType": "ElementaryTypeName",
-              "src": "134:7:11",
+              "src": "160:7:11",
               "stateMutability": "nonpayable",
               "typeDescriptions": {
                 "typeIdentifier": "t_address",
@@ -650,14 +661,14 @@
             },
             "value": {
               "hexValue": "307835423338446136613730316335363835343564436663423033466342383735663536626564644334",
-              "id": 829,
+              "id": 841,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "165:42:11",
+              "src": "191:42:11",
               "typeDescriptions": {
                 "typeIdentifier": "t_address",
                 "typeString": "address"
@@ -667,13 +678,13 @@
             "visibility": "public"
           }
         ],
-        "scope": 832,
-        "src": "36:175:11",
+        "scope": 844,
+        "src": "62:175:11",
         "usedErrors": [],
         "usedEvents": []
       }
     ],
-    "src": "36:175:11"
+    "src": "34:203:11"
   },
   "compiler": {
     "name": "solc",
@@ -681,7 +692,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.15",
-  "updatedAt": "2023-11-25T14:50:35.795Z",
+  "updatedAt": "2023-11-26T08:09:23.389Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
