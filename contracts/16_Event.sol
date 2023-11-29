@@ -1,8 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-pragma solidity 0.8.20;
-
 /**
  * Events 允许登录到以太坊区块链。事件的一些用例包括
  * 侦听事件和更新用户界面

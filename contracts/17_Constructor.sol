@@ -41,7 +41,7 @@ contract D is X,Y {
 // 如下合约中，构造函数调用顺序：
 // 1. X
 // 2. Y
-// 3. D
+// 3. E
 // 就算传递参数的顺序不同，但因继承顺序，始终是X调用，然后是Y调用
 contract E is X, Y {
     constructor() Y("Y was called") X("X was called") {}
