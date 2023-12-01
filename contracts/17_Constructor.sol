@@ -1,15 +1,27 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-
 /**
- * constructor 是在创建合约时执行的可选函数。
+ * 当前合约主要演示以下内容：
+ * 1. 构造函数
+ * 2. 继承
+ * 3. 重写
  */
 
 contract X {
   string public name;
+  uint public age;
   constructor(string memory _name) {
     name = _name;
+  }
+  // 为了让store函数能被子合约重写，需要加上virtual关键词
+  
+  function setName(string memory _name) public virtual {
+    name = _name;
+  }
+
+  function setAge(uint _age) public virtual {
+    age = _age;
   }
 }
 
@@ -45,5 +57,15 @@ contract D is X,Y {
 // 就算传递参数的顺序不同，但因继承顺序，始终是X调用，然后是Y调用
 contract E is X, Y {
     constructor() Y("Y was called") X("X was called") {}
+}
+
+
+// 可以通过override来重写父合约
+contract F is X {
+  constructor() X("Y was called") {}
+  // 重写父合约的setAge函数，在函数修饰符中加入override关键字
+  function setAge(uint _age) public override {
+    age = _age + 5;
+  }
 }
 

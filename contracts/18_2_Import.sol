@@ -2,13 +2,19 @@
 
 pragma solidity ^0.8.20;
 
+/**
+ * 当前合约主要演示以下内容：
+ * 1. import关键字（导入其他合约）
+ * 2. 合约实例的应用
+ */
+
 // 引入Solidity_1合约
 import "./18_1_Import.sol";
 
 contract Solidity_2 {
 
   Solidity_1[] public simpleStorageArray;
-
+  
   function createSimpleContract() public {
     // 创建Solidity_1合约的实例
     Solidity_1 solidity = new Solidity_1();
